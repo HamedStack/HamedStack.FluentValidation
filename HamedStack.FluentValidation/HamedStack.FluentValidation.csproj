@@ -13,7 +13,11 @@
         <RepositoryUrl>https://github.com/HamedStack/HamedStack.FluentValidation</RepositoryUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
+    <ItemGroup>
+        <None Include="..\README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
     <ItemGroup>
         <PackageReference Include="FluentValidation" Version="11.7.1" />
     </ItemGroup>
